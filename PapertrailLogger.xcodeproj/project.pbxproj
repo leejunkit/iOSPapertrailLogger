@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95A40C2D154B6EFD009A30A6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A40C2C154B6EFD009A30A6 /* UIKit.framework */; };
+		95A40C2F154B6EFD009A30A6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A40C2E154B6EFD009A30A6 /* Foundation.framework */; };
+		95A40C31154B6EFD009A30A6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95A40C30154B6EFD009A30A6 /* CoreGraphics.framework */; };
+		95A40C37154B6EFD009A30A6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 95A40C35154B6EFD009A30A6 /* InfoPlist.strings */; };
+		95A40C39154B6EFD009A30A6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A40C38154B6EFD009A30A6 /* main.m */; };
+		95A40C3D154B6EFD009A30A6 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A40C3C154B6EFD009A30A6 /* JKAppDelegate.m */; };
+		95A40C40154B6EFD009A30A6 /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A40C3F154B6EFD009A30A6 /* JKViewController.m */; };
+		95A40C43154B6EFD009A30A6 /* JKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95A40C41154B6EFD009A30A6 /* JKViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		95A40C28154B6EFD009A30A6 /* PapertrailLogger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PapertrailLogger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A40C2C154B6EFD009A30A6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		95A40C2E154B6EFD009A30A6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95A40C30154B6EFD009A30A6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95A40C34154B6EFD009A30A6 /* PapertrailLogger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PapertrailLogger-Info.plist"; sourceTree = "<group>"; };
+		95A40C36154B6EFD009A30A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		95A40C38154B6EFD009A30A6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		95A40C3A154B6EFD009A30A6 /* PapertrailLogger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PapertrailLogger-Prefix.pch"; sourceTree = "<group>"; };
+		95A40C3B154B6EFD009A30A6 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JKAppDelegate.h; path = PapertrailLogger/JKAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		95A40C3C154B6EFD009A30A6 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		95A40C3E154B6EFD009A30A6 /* JKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
+		95A40C3F154B6EFD009A30A6 /* JKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
+		95A40C42154B6EFD009A30A6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/JKViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A40C25154B6EFD009A30A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A40C2D154B6EFD009A30A6 /* UIKit.framework in Frameworks */,
+				95A40C2F154B6EFD009A30A6 /* Foundation.framework in Frameworks */,
+				95A40C31154B6EFD009A30A6 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95A40C1D154B6EFD009A30A6 = {
+			isa = PBXGroup;
+			children = (
+				95A40C32154B6EFD009A30A6 /* PapertrailLogger */,
+				95A40C2B154B6EFD009A30A6 /* Frameworks */,
+				95A40C29154B6EFD009A30A6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95A40C29154B6EFD009A30A6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A40C28154B6EFD009A30A6 /* PapertrailLogger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A40C2B154B6EFD009A30A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95A40C2C154B6EFD009A30A6 /* UIKit.framework */,
+				95A40C2E154B6EFD009A30A6 /* Foundation.framework */,
+				95A40C30154B6EFD009A30A6 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95A40C32154B6EFD009A30A6 /* PapertrailLogger */ = {
+			isa = PBXGroup;
+			children = (
+				95A40C3B154B6EFD009A30A6 /* JKAppDelegate.h */,
+				95A40C3C154B6EFD009A30A6 /* JKAppDelegate.m */,
+				95A40C3E154B6EFD009A30A6 /* JKViewController.h */,
+				95A40C3F154B6EFD009A30A6 /* JKViewController.m */,
+				95A40C41154B6EFD009A30A6 /* JKViewController.xib */,
+				95A40C33154B6EFD009A30A6 /* Supporting Files */,
+			);
+			path = PapertrailLogger;
+			sourceTree = "<group>";
+		};
+		95A40C33154B6EFD009A30A6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A40C34154B6EFD009A30A6 /* PapertrailLogger-Info.plist */,
+				95A40C35154B6EFD009A30A6 /* InfoPlist.strings */,
+				95A40C38154B6EFD009A30A6 /* main.m */,
+				95A40C3A154B6EFD009A30A6 /* PapertrailLogger-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A40C27154B6EFD009A30A6 /* PapertrailLogger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A40C46154B6EFD009A30A6 /* Build configuration list for PBXNativeTarget "PapertrailLogger" */;
+			buildPhases = (
+				95A40C24154B6EFD009A30A6 /* Sources */,
+				95A40C25154B6EFD009A30A6 /* Frameworks */,
+				95A40C26154B6EFD009A30A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PapertrailLogger;
+			productName = PapertrailLogger;
+			productReference = 95A40C28154B6EFD009A30A6 /* PapertrailLogger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A40C1F154B6EFD009A30A6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "mohawk.riceball@gmail.com";
+			};
+			buildConfigurationList = 95A40C22154B6EFD009A30A6 /* Build configuration list for PBXProject "PapertrailLogger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 95A40C1D154B6EFD009A30A6;
+			productRefGroup = 95A40C29154B6EFD009A30A6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A40C27154B6EFD009A30A6 /* PapertrailLogger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A40C26154B6EFD009A30A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A40C37154B6EFD009A30A6 /* InfoPlist.strings in Resources */,
+				95A40C43154B6EFD009A30A6 /* JKViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A40C24154B6EFD009A30A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A40C39154B6EFD009A30A6 /* main.m in Sources */,
+				95A40C3D154B6EFD009A30A6 /* JKAppDelegate.m in Sources */,
+				95A40C40154B6EFD009A30A6 /* JKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95A40C35154B6EFD009A30A6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A40C36154B6EFD009A30A6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		95A40C41154B6EFD009A30A6 /* JKViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A40C42154B6EFD009A30A6 /* en */,
+			);
+			name = JKViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A40C44154B6EFD009A30A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		95A40C45154B6EFD009A30A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A40C47154B6EFD009A30A6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PapertrailLogger/PapertrailLogger-Prefix.pch";
+				INFOPLIST_FILE = "PapertrailLogger/PapertrailLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		95A40C48154B6EFD009A30A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PapertrailLogger/PapertrailLogger-Prefix.pch";
+				INFOPLIST_FILE = "PapertrailLogger/PapertrailLogger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A40C22154B6EFD009A30A6 /* Build configuration list for PBXProject "PapertrailLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A40C44154B6EFD009A30A6 /* Debug */,
+				95A40C45154B6EFD009A30A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A40C46154B6EFD009A30A6 /* Build configuration list for PBXNativeTarget "PapertrailLogger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A40C47154B6EFD009A30A6 /* Debug */,
+				95A40C48154B6EFD009A30A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A40C1F154B6EFD009A30A6 /* Project object */;
+}
